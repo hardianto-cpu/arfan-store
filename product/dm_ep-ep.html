@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Game-BintangTopUp</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  
+  
+
+    <div class="container">
+      <div class="navbar">
+        <div class="logo">
+            <a href="../index-sesudah.html"><img src="../image/logo.png" width="125px"></a>
+        </div>
+            <nav>
+             <ul id="MenuItems">
+                <li><a href="../index-sesudah.html">Beranda</a></li>
+                <li><a href="https://www.instagram.com/arfnn_337">Tentang</a></li>
+                <li><a href="https://api.whatsapp.com/send?phone=6289654020881">Bantuan</a></li>
+             </ul>
+            </nav>
+            <div class="cart">
+            <img src="../image/menu.png" class="menu-icon" onclick="menutoggle()"> 
+        </div>
+        </div>
+
+        <div class="small-container">
+          <h1>List Diamond Free Fire</h1>
+          <p>silahkan pilih salah satu yang anda inginkan</p>
+        <div class="row2 row-2">
+
+
+         
+      </div>
+<!------Daftar Produk------>
+      <div class="products">
+
+        
+        <div class="product__element">
+          <input type="hidden" name="" id="product__id" value="1" />
+          <img src="../image/bg-prk1.jpg" class='banner-img'>
+          <img src="../image/product-1.jpg" calt='profile image' class="profile-img" width="50px" alt="" srcset="" id="image" />
+          <p class="product__name">Free Fire</p>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+        </div>
+          <h5 class="product__price">Click to Show list</h5>
+          <div class="btn__add__to__cart">Beli</div>
+        </div>
+
+        <div class="product__element">
+          <input type="hidden" name="" id="product__id" value="2" />
+          <img src="../image/bg-prk2.jpg" class='banner-img'>
+          <img src="../image/product-2.jpg" calt='profile image' class="profile-img" width="50px" alt="" srcset="" id="image" />
+          <p class="product__name">Mobile Legends</p>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+        </div>
+          <h5 class="product__price">Click to Show list</h5>
+          <div class="btn__add__to__cart">Beli</div>
+        </div>
+
+        <div class="product__element">
+          <input type="hidden" name="" id="product__id" value="3" />
+          <img src="../image/bg-prk3.jpg" class='banner-img'>
+          <img src="../image/product-3.jpg" calt='profile image' class="profile-img" width="50px" alt="" srcset="" id="image" />
+          <p class="product__name">PUBG Mobile</p>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+        </div>
+          <h5 class="product__price">Click to Show list</h5>
+          <div class="btn__add__to__cart">
+          <a href="/product/"></a>
+          </div>
+        </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+            </div>
+            <div class="footer-col-2">
+                <img src="../image/logo-white.png" >
+                <p>Kesenangan Pelanggan Adalah Prioritas Kami</p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Layanan Pelanggan</h3>
+                <ul>
+                    <li>Telp:+62-8540-20881</li>
+                    <li><a href="https://api.whatsapp.com/send?phone=6289654020881"><li>WA:+62-8965-4020-881</li></a></li>
+                    <li><a href="https://www.instagram.com/arfnn_337/"><li>IG:@arfnn_337</li></a></li>
+                    <li>SENIN – MINGGU
+                    <br>09:00-22:00 CS SUPPORT</li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Follow Us</h3>
+                <ul>
+                    <a href="https://www.instagram.com/arfnn_337"><li>Instagram</li></a>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="Copyrigh">Copyright 2022 - Arfan Store</p>
+    </div>
+</div>
+
+<!--js for toggle menu-->
+    
+
+    <script src="main.js"></script>
+    <script>
+      var MenuItems= document.getElementById("MenuItems");
+      MenuItems.style.maxHeight = "0px";
+      function menutoggle(){
+              if(MenuItems.style.maxHeight == "0px")
+          {
+              MenuItems.style.maxHeight = "200px";
+          }
+      else   
+          {   
+              MenuItems.style.maxHeight = "0px";
+          }
+      
+      }
+  </script>
+
+<script type="text/javascript">
+  var urlMenu = document.getElementById('menuItem');
+  urlMenu.onchange = function() {
+    var userOption = this.options[this.selectedIndex];
+    if (userOption.value != "nothing")  {
+      window.open (userOption.value, "Menu", "");
+    }
+  }
+  </script>
+  </body>
+</html>
